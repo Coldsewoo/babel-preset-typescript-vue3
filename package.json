@@ -1,5 +1,5 @@
 {
-  "name": "@zenerate/babel-preset-typescript-vue3",
+  "name": "@zenerateadmin/babel-preset-typescript-vue3",
   "version": "2.0.22",
   "description": "TypeScript preset for Babel 7.x supporting Vue.js 3 components written in TS",
   "main": "lib/index.js",
@@ -14,6 +14,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/Coldsewoo/babel-preset-typescript-vue3"
+  },
+  "publishConfig": {
+    "registry": "http://my-awesome-registry.com/"
   },
   "license": "MIT",
   "keywords": [
