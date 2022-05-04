@@ -16,7 +16,7 @@
     "url": "https://github.com/Coldsewoo/babel-preset-typescript-vue3"
   },
   "publishConfig": {
-    "registry": "http://my-awesome-registry.com/"
+    "registry": "http://registry.npmjs.org/"
   },
   "license": "MIT",
   "keywords": [
