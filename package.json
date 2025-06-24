@@ -50,6 +50,6 @@
   },
   "jest": {
     "testEnvironment": "node",
-    "testRegex": "./test/.+\\.js$"
+    "testMatch": ["**/test/index.js"]
   }
 }

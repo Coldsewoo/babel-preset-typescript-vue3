@@ -8,10 +8,10 @@ export default (filePath) => {
     ).descriptor;
 
     return !!script && !!script.lang
-      ? script.lang.toLowerCase() === "ts"
+      ? ["ts", "tsx"].includes(script.lang.toLowerCase())
       : !!scriptSetup &&
           !!scriptSetup.lang &&
-          scriptSetup.lang.toLowerCase() === "ts";
+          ["ts", "tsx"].includes(scriptSetup.lang.toLowerCase());
   }
   return false;
 };
